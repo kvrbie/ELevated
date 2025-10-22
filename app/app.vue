@@ -1,6 +1,14 @@
+<script setup lang="tsx">
+import Footer from "./components/footer.vue";
+import Header from "./components/header.vue"
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <div>
+        <Header />
+        <main>
+            <NuxtPage />
+        </main>
+        <Footer />
+    </div>
 </template>
