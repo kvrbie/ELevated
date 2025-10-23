@@ -1,20 +1,22 @@
 <template>
     <div class="flex flex-row items-center gap-4 bg-brand-white">
-        <img src="~/assets/Logo.png" class="w-24" alt="ElevatED Logo">
+        <NuxtLink href="/">
+            <img src="~/assets/Logo.png" class="w-24" alt="ElevatED Logo">
+        </NuxtLink>
         <nav class="flex gap-4">
             <NuxtLink href="/">
                 Home
             </NuxtLink>
-            <NuxtLink href="#">
+            <NuxtLink href="/about">
                 About Us
             </NuxtLink>
-            <NuxtLink href="#">
+            <NuxtLink href="/services">
                 Services
             </NuxtLink>
-            <NuxtLink href="#">
+            <NuxtLink href="/blog">
                 Blog
             </NuxtLink>
-            <NuxtLink href="#">
+            <NuxtLink href="/contact">
                 Contact Us
             </NuxtLink>
         </nav>

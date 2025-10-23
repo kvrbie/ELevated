@@ -3,7 +3,7 @@
 <template>
     <div>
         <p>
-            Main content here
+            About services page
         </p>
     </div>
 </template>

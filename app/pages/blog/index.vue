@@ -3,7 +3,7 @@
 <template>
     <div>
         <p>
-            Main content here
+            Blog index
         </p>
     </div>
 </template>
