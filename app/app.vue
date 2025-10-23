@@ -1,12 +1,12 @@
 <script setup lang="tsx">
 import Footer from "./components/footer.vue";
-import Header from "./components/header.vue"
+import Header from "./components/header.vue";
 </script>
 
 <template>
-    <div>
+    <div class="flex min-h-screen flex-col">
         <Header />
-        <main>
+        <main class="flex-1">
             <NuxtPage />
         </main>
         <Footer />
