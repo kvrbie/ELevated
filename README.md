@@ -1,5 +1,5 @@
 # To-do for m-1:
-- [X] Setup tailwind config
-- [-] Write header & footer
-- [-] Bare pages for contacts & other required links
+[x] Setup tailwind config
+[x] Write header & footer
+[-] Bare pages for contacts & other required links
 due: Oct 22/23
